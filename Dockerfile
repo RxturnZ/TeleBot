@@ -64,4 +64,4 @@ RUN mkdir /root/telebot/bin/
 WORKDIR /root/telebot/
 RUN chmod +x /usr/local/bin/*
 RUN pip3 install -r requirements.txt
-CMD ["python3","clever.py"]
+CMD ["bash","./resources/startup.sh"]
